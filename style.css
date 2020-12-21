@@ -1,0 +1,338 @@
+body{
+  
+}
+.body-in{
+  font-family: Georgia;
+  width:1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 70px 0 0 0;
+  
+  
+}
+
+.header{
+  height: 152px;
+  width: 100%;
+  margin-right:0;
+  
+  
+  
+}
+  .header .header-in{
+  
+  margin: 0 auto;
+  height: 82px;
+  
+  display: flex;
+  justify-content: space-around;padding-top: 0;
+  
+
+}
+.header-left{
+
+}
+.header-left h1{
+  margin: 0 0 10px 0 ;
+  color: rgb(119, 119, 119);
+}
+.header-left p{
+  margin: 0;
+  color: rgb(119, 119, 119);
+}
+.header-right{
+  line-height: 82px;
+  margin: 0;
+  padding: 0;
+
+}
+.header-right ul{
+  display:flex;
+  list-style: none;
+   text-align: left;
+  color: rgb(119, 119, 119);
+}
+.header-right ul li{
+  margin-right: 2rem;
+  
+}
+.header-right a{
+  text-decoration: none;
+  color: #777777;
+  margin-left: 12px;
+}
+/*----main---*/
+.key_visual {
+  background-size:  cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+main .texth{
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 49px;
+  color: #777777;
+  
+  padding-top: 50px;
+
+  margin-bottom: 100px;
+}
+.te-ma{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.time{
+  width: 260px;
+  margin-right: 100px;
+  
+}
+ .first-time{
+  margin-right: 100px;
+  width:200px;
+  
+}
+.date{
+  margin: 0;
+  font-size:15px;
+  
+}
+.first-date{
+  
+  
+  
+}
+.text{
+  width: 900px;
+}
+
+.text h2{
+  margin-top: 0;
+  margin-bottom:26px; 
+  font-weight:100;
+  font-size:22px;
+  line-height: 29px;
+  color: #111111;
+  
+
+}
+.text p{
+  font-size: 17px;
+  line-height: 30px;
+  color: #666666;
+  margin-bottom: 75px;
+
+}
+.page-next{
+  height: 200px;
+  
+  
+
+}
+.page-next ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 150px;
+  text-align: center;
+}
+.page-next ul li{
+  font-size: 20px;
+  line-height: 20px;
+  border: 1px solid #777777;
+  
+  margin-right: 15px;
+  text-decoration: none;
+}
+.page-next ul li a{
+  text-decoration: none;
+  color: #777777;
+  display: block;
+  width: 40px;
+  padding: 15px 15px;
+
+}
+
+/*----foter----*/
+footer{
+  height: 400px;
+  font-family: Georgia;
+  width:100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 70px 0 0 0 ;
+  border-top: 1px solid #bebdb4;
+  border-bottom: 1px solid #bebdb4;
+  justify-content: space-between;
+}
+.footer-box{
+  width: 210px;
+
+}
+.prof{
+  display: flex;
+  
+
+}
+.me{
+  border: 0 solid red;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%);
+
+}
+.picture-name .my-name{
+  font-weight: bold;
+  font-size: 20px;
+}
+.prof a{
+  margin-right: 10px;
+  color: #a6a39c;
+}
+.footer-box .texts{
+  font-size: 14px;
+  letter-spacing:2px;
+  font-weight: 100;
+  line-height: 2em;
+  color: #777777;
+  text-align: center;
+}
+.footer-box3{
+  width: 160px;
+  font-size: 14px;
+  letter-spacing:2px;
+  font-weight: 100;
+  line-height: 2em;
+  color: #777777;
+  text-align: center;
+}
+.box-3h{
+  font-weight: nomal;
+}
+  .underline{
+   border-bottom: 1px solid #bebdb4;
+
+}
+.line-height{
+  
+  line-height:40px;
+  }
+.footer-box input{
+  border: 1px solid #bebdb4; 
+  line-height: 30px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+/*-----------------メディアクエリ*/
+@media screen and (max-width:1070px){
+ .body-in{
+   width: 900px;
+   padding: 70px 0 0 0;
+   box-sizing: border-box;
+   margin: 0 auto;
+ }
+
+
+ .header .header-in{
+   display: block;
+ }
+ .header-right ul{
+   width: 600px;
+   /*justify-content: left;*/
+   padding-left: 0;
+   
+   }
+
+
+.key_visual {
+  
+  width: 100%;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin: 0 auto;  
+}  
+ .top{
+  
+  width: 100%;
+}
+footer{
+   
+   display:block;
+   height: 100%;
+   width: 100%;
+   padding: 70px 0 0 0;
+   
+
+}
+footer .footer-box{
+   width: 800px;
+   display:block;
+   margin:0 auto;
+   
+   }
+   .message{
+     display:inline-block;
+     width: 750px;
+     margin: 0 auto;
+}
+
+.footer-box .texts{
+  display:inline-block;
+  width: 100%;
+  text-align: left;
+  
+}
+
+
+}
+@media screen and (max-width:800px){
+  .body-in{
+   width: 100%;
+    margin: 0 auto;
+    padding-top: 70px 0 0 0; 
+    display: block;
+    box-sizing: border-box;
+  }
+  .header-in ul{
+  display: none;
+
+ }
+ main .texth{
+   font-size:23px;
+ }
+footer{
+  margin: 0 auto;
+   width:100%; 
+   
+}
+ footer .footer-box{
+   width: 90%;
+   display:block;
+   margin:0 auto;
+
+ }
+.footer-box .texts{
+  
+  display:block;
+  width:90%;
+  margin: 0 auto;
+
+  }
+  .message{
+  
+  display: block;
+  width:550px; 
+ 
+}
+ }
+
+
+
+
+
